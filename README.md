@@ -1,5 +1,5 @@
 # UltrawideWindowsandVertical 
-A fork of the [UltrawideWindows](https://github.com/lucmos/UltrawideWindows) Kwin script to fit my needs.
+A fork of the [UltrawideWindows](https://github.com/lucmos/UltrawideWindows) Kwin script to fit my needs. Basically I've only included the specific shortcuts I needed, and made a few that I needed for centering windows and tiling on a vertical monitor. If you find this github you should probably check out the [UltraWidWindows repo](https://github.com/lucmos/UltrawideWindows) isntead.
 
 # Installation
 
