@@ -1,5 +1,5 @@
 # UltrawideWindowsandVertical 
-A fork of the UltrawideWindows Kwin script to fit my needs.
+A fork of the [UltrawideWindows](https://github.com/lucmos/UltrawideWindows) Kwin script to fit my needs.
 
 # Installation
 
