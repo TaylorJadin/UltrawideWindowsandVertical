@@ -208,6 +208,42 @@ function moveWithFixedSize(workspace, moveDirection, movePx) {
 //     return false;
 // }
 
-registerShortcut("MoveWindowToCenter", "UltrawideWindows: Center Window", "ctrl+meta+k", function () {
-    center(workspace)
-});
+registerShortcut("MoveWindowToCenter", "UltrawideWindowsAndThirds: Center Window", "ctrl+meta+k", function () {
+    move(workspace, 6, 6 , 1, 1, 4, 4)
+}); 
+
+registerShortcut("ThirdLeft", "UltrawideWindowsAndThirds: 1/3 Left", "ctrl+meta+u", function () {
+    move(workspace, 3, 1, 0, 0, 1, 1)
+}); 
+
+registerShortcut("ThirdMiddle", "UltrawideWindowsAndThirds: 1/3 Middle", "ctrl+meta+i", function () {
+    move(workspace, 3, 1, 1, 0, 1, 1)
+}); 
+
+registerShortcut("ThirdRight", "UltrawideWindowsAndThirds: 1/3 Right", "ctrl+meta+o", function () {
+    move(workspace, 3, 1, 2, 0, 1, 1)
+}); 
+
+registerShortcut("TwoThirdsLeft", "UltrawideWindowsAndThirds: 2/3 Left", "ctrl+meta+j", function () {
+    move(workspace, 3, 1, 0, 0, 2, 1)
+}); 
+
+registerShortcut("TwoThirdsRight", "UltrawideWindowsAndThirds: 2/3 Right", "ctrl+meta+l", function () {
+    move(workspace, 3, 1, 1, 0, 2, 1)
+}); 
+
+registerShortcut("TwoThirdsRight", "UltrawideWindowsAndThirds: 2/3 Right", "ctrl+meta+l", function () {
+    move(workspace, 3, 1, 1, 0, 2, 1)
+}); 
+
+registerShortcut("ThirdTopVert", "UltrawideWindowsAndThirds: 1/3 Top (Vertical", "ctrl+meta+y", function () {
+    move(workspace, 1, 3, 0, 0, 1, 1)
+}); 
+
+registerShortcut("ThirdMiddleVert", "UltrawideWindowsAndThirds: 1/3 Middle (Vertical)", "ctrl+meta+h", function () {
+    move(workspace, 1, 3, 0, 1, 1, 1)
+}); 
+
+registerShortcut("ThirdBottomVert", "UltrawideWindowsAndThirds: 1/3 Bottom (Vertical)", "ctrl+meta+n", function () {
+    move(workspace, 1, 3, 0, 2, 1, 1)
+}); 
